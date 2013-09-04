@@ -1,0 +1,10 @@
+---
+name: mailans
+version: 1
+cron:
+    - description: sendMsg
+    url: /sendWeatherMsg.php
+#    schedule: every 1 mins
+    schedule: every day of month 19:26
+    timezone: Beijing
+...
